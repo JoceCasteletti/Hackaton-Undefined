@@ -6,12 +6,13 @@ for (let i=0; i<storesData.length; i++){
        //console.log(storesData[i].name);
 document.getElementById('area').innerHTML += ` 
 <div class="col-md-4">
-<div class="card" style="width: 18rem;">
+<div class="card" style="width: 18rem; height: 20em">
   <img src="${storesData[i].img}" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">${storesData[i].name}</h5>
-    <p class="card-text">${storesData[i].description}</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="${storesData[i].facebook}"><img id="icon" src="../img/face.png"</img></a>
+    <a href="${storesData[i].instagram}"><img id="icon" src="../img/insta.png"</img></a>
+    <a href="${storesData[i].maps}"><img id="icon" src="../img/maps.png"</img></a>
+    <a href="${storesData[i].web}"><img id="icon" src="../img/www.png"</img></a>
   </div>
 </div>
 </div>
@@ -29,18 +30,18 @@ let firstScreen = '\
 
 
     window.onload = document.getElementById('area').innerHTML = firstScreen;   
-    const storesData = window.STORES.stores;
+    //const storesData = window.STORES.stores;
 
     //console.log(storesData[0].id);
     
-    let searchStore = document.getElementById('search');
+   
     let logoInit = document.getElementById('logoindex');
 
     logoInit.addEventListener('click', () => {
     document.getElementById('area').innerHTML = '';
     document.getElementById('area').innerHTML = firstScreen;
   });
-
+  let searchStore = document.getElementById('search');
     searchStore.addEventListener('click',() =>{
       document.getElementById('area').innerHTML = '';
     showData();

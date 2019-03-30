@@ -267,7 +267,7 @@ const STORES = {
       "Aprendizaje",
       "Retención de Informacion"
     ],
-    "img": "http://www.kayma.cl/imagenes/logo-kayma-nuevo.png",
+    "img": "../img/kayma.png",
     "web": "http://www.kayma.cl/inicio",
     "direction": "Ecuador 3414",
     "comuna": "Estación central,Santiago",

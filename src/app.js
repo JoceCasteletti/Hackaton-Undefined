@@ -1,5 +1,5 @@
 // const dataBase = window.STORES.stores;
-// const filterData = (dataBase) => {
+// const filterData = (dataBase, condition) => {
 //   const filter = dataBase.filter(element =>{
 //       return element;
 //   });
