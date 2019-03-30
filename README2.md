@@ -1,6 +1,38 @@
-Planificación del proyecto 📑
+# Menos esterotipos en juguetes de niñ@s 🚀
 
-Historias de usuario 👩🏻🧔🏻💻💡
+Esta pagina web es posible visualizarla en el siguiente link:
+
+https://jocecasteletti.github.io/SteamJoce/
+
+## Índice📜
+
+* [Preámbulo](#preámbulo)
+* [Procedo del diseñó](#proceso-del-diseño)
+* [Historias de usuario](#historias-de-usuario)
+
+
+## Preámbulo🤺
+Juega libre es la mejor página para encontrar toda la información de las tiendas que comercializan juguetes unisex , sin estereotipos de género
+![JuegaLibre](.src/img/logo.jpg)
+
+
+## Proceso del Diseño 🎨
+En el desarrollo fuimos evaluando y considerando cada uno de los criterios referidos por los usuarios para el desarrollo de esta aplicación.
+
+1-¿Quiénes son los principales usuarios de producto?
+Nuestros usuarios son especialmente los compradores de juego para niñ@s.
+
+2-¿Cuáles son los objetivos de los usuarios de esta aplicación?
+Consultar de manera rápida información acerca de las tiendas que venden jueguetes unisex.
+
+3-¿Que datos más relevantes se muestran en la interfaz?
+Los usuarios cuenten con una busqueda rápida y fácil acerca de las tindas, además de información detallada de cada una de ellas. 
+
+4-¿Cuándo utilizan o utilizarían el producto?
+Antes de tomar la decisión de donde comprar juguetes.
+
+
+## Historias de usuario 📑👩🏻🧔🏻💻💡
 
 Historia de usuario 1
 Como: Comprador de juguetes para niños.
@@ -64,7 +96,11 @@ CRITERIOS DE ACEPTACIÓN
 La aplicación debe tener un botón que le permita al usuario ver todos las tiendas.
 .
 
-Encuesta aplicada 📋
-Se realizó una encuesta con el Formulario de Google Forms, con el objetivo de conocer un poco más sobre los compradores de juguetes de niños, que fue compartida a través de vaarias redes sociales, recibiendo un total de 20 respuestas.
+## Encuesta aplicada 📋
+Se realizó una encuesta con el Formulario de Google Forms, con el objetivo de conocer un poco más sobre los compradores de juguetes de niñ@s recibiendo un total de 21 respuestas.
 
-La encuesta se realizó con Google el cual se pueden encontrar aquí
+La encuesta se puede encontrar [aquí](https://docs.google.com/forms/d/1bBPPk71K48wQlje7VzUbeCjK1HnHIgGM2RbzoZ0Zg5k/edit#responses)
+
+## Definición del Usuario (User persona)
+El User persona se elaboró con [Figma] el cual se pueden encontrar aquí [aquí](https://www.figma.com/file/ImZ9NgfBjlgRIOVqJVM5MJQy/Proyecto-Hackaton?node-id=0%3A1)
+
