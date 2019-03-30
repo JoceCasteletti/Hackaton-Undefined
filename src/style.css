@@ -1,17 +1,11 @@
-<<<<<<< Updated upstream
 .card-group{
     margin-left: 30px;
     margin-right: 40px;
   }
 
-body.img{
-    opacity: 1.0;;
-}
-=======
->>>>>>> Stashed changes
 
 .nav{
-    background-color: #00C0AF;
+    background-color: #D4F1EF;
 }
 
 .ul{
@@ -31,11 +25,19 @@ width: 500px;
 }
 
 #logoindex{
+    height: 100px;
     width: 150px;
-    margin-right: 500px;
-
+    margin-right: 800px;
 }
-
 #textarea{
     background-color: #F8FFFE;
+}
+
+button{
+    background-color: #D4F1EF;
+    border: none;
+}
+
+button:hover{
+    background-color: #00C0AF;
 }
