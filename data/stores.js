@@ -400,3 +400,5 @@ const STORES = {
   }
 ]
 };;
+
+window.STORES=STORES;
