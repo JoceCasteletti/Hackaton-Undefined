@@ -6,9 +6,16 @@ function showData(){
 for (let i=0; i<storesData.length; i++){
        
 document.getElementById('area').innerHTML += ` 
+
+<div class="col-md-4">
+<div class="card" data-toggle="modal" data-target="#exampleModal_${i}">
+  <div class="card-image">
+
 <div class="col-md-4">  
 <div class="card" style="width: 18rem; height: 20em">
+
   <img src="${storesData[i].img}" class="card-img-top" alt="...">
+  </div>
   <div class="card-body">
     <a href="${storesData[i].facebook}"><img id="icon" src="../img/face.png"</img></a>
     <a href="${storesData[i].instagram}"><img id="icon" src="../img/insta.png"</img></a>
@@ -17,6 +24,25 @@ document.getElementById('area').innerHTML += `
   </div>
 </div>
 </div>
+</div>
+<div class="modal fade" id="exampleModal_${i}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">${storesData[i].name}</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+    <p="modal-title" id="exampleModalLabel">${storesData[i].description}</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+</div>
 </div>`
 }
 };
@@ -24,7 +50,7 @@ document.getElementById('area').innerHTML += `
 
 let firstScreen = '\
     <div class="differences">\
-    <h3>Rompe los roles, destuye los estereotipos, estimula su creatividad y que tus niñ@s crezcan sin limites</h3>\
+    <h3>Rompe los roles, destruye los estereotipos, estimula su creatividad y que tus niñ@s crezcan sin límites</h3>\
     <div id=playing> <img src="../img/img2.jpg"></div>\
     </div>\
     </div>';
@@ -46,6 +72,7 @@ let firstScreen = '\
     searchStore.addEventListener('click',() =>{
       document.getElementById('area').innerHTML = '';
     showData();
+
     });
 
     let somos = document.getElementById('somos');
@@ -59,3 +86,4 @@ let firstScreen = '\
       </p>`
 
     });
+
