@@ -2,7 +2,7 @@
 
 Esta pagina web es posible visualizarla en el siguiente link:
 
-https://jocecasteletti.github.io/SteamJoce/
+https://jocecasteletti.github.io/Hackaton-Undefined/
 
 ## Índice📜
 
@@ -16,8 +16,6 @@ Juega libre es la mejor página para encontrar toda la información de las tiend
 
 ### Sabes que son los esterotipos de género?
 Los estereotipos de género hacen referencia a aquellas creencias arraigadas fuertemente en la sociedad acerca de cómo son, o como deben ser, las mujeres y los hombres. Son creencias que dictan los roles que los hombres y mujeres han de desempeñar en la sociedad a la que pertenecen.
-
-![JuegaLibre]()
 
 
 ## Proceso del Diseño 🎨
