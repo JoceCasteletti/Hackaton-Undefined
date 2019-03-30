@@ -1,3 +1,16 @@
-.body{
-background-color: aliceblue
+body{
+background-image: url("../img/logo.png");
+background-size: 20em;
+}
+
+body.img{
+    opacity: 1.0;;
+}
+
+.nav{
+    background-color: #00C0AF;
+}
+
+.a{
+    color: #ffffff
 }
