@@ -7,17 +7,21 @@ https://jocecasteletti.github.io/SteamJoce/
 ## Índice📜
 
 * [Preámbulo](#preámbulo)
-* [Procedo del diseñó](#proceso-del-diseño)
+* [Proceso del Diseño](#proceso-del-diseño)
 * [Historias de usuario](#historias-de-usuario)
 
 
 ## Preámbulo🤺
-Juega libre es la mejor página para encontrar toda la información de las tiendas que comercializan juguetes unisex , sin estereotipos de género
-![JuegaLibre](.src/img/logo.jpg)
+Juega libre es la mejor página para encontrar toda la información de las tiendas que comercializan juguetes unisex , sin estereotipos de género.
+
+### Sabes que son los esterotipos de género?
+Los estereotipos de género hacen referencia a aquellas creencias arraigadas fuertemente en la sociedad acerca de cómo son, o como deben ser, las mujeres y los hombres. Son creencias que dictan los roles que los hombres y mujeres han de desempeñar en la sociedad a la que pertenecen.
+
+![JuegaLibre]()
 
 
 ## Proceso del Diseño 🎨
-En el desarrollo fuimos evaluando y considerando cada uno de los criterios referidos por los usuarios para el desarrollo de esta aplicación.
+En el desarrollo fuimos evaluando y considerando cada uno de los criterios referidos por los usuarios para un mejor desarrollo de esta aplicación.
 
 1-¿Quiénes son los principales usuarios de producto?
 Nuestros usuarios son especialmente los compradores de juego para niñ@s.
@@ -102,5 +106,5 @@ Se realizó una encuesta con el Formulario de Google Forms, con el objetivo de c
 La encuesta se puede encontrar [aquí](https://docs.google.com/forms/d/1bBPPk71K48wQlje7VzUbeCjK1HnHIgGM2RbzoZ0Zg5k/edit#responses)
 
 ## Definición del Usuario (User persona)
-El User persona se elaboró con [Figma] el cual se pueden encontrar aquí [aquí](https://www.figma.com/file/ImZ9NgfBjlgRIOVqJVM5MJQy/Proyecto-Hackaton?node-id=0%3A1)
+El User persona se elaboró con [Figma] el cual se pueden encontrar [aquí](https://www.figma.com/file/ImZ9NgfBjlgRIOVqJVM5MJQy/Proyecto-Hackaton?node-id=0%3A1)
 
