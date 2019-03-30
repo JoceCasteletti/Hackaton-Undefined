@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .card-group{
     margin-left: 30px;
     margin-right: 40px;
@@ -6,11 +7,35 @@
 body.img{
     opacity: 1.0;;
 }
+=======
+>>>>>>> Stashed changes
 
 .nav{
     background-color: #00C0AF;
 }
 
+.ul{
+    margin-top: 200px;
+}
 .a{
     color: #ffffff
+}
+
+.differences{
+    margin: 70px;
+    text-align: center
+}
+
+img{
+width: 500px;
+}
+
+#logoindex{
+    width: 150px;
+    margin-right: 500px;
+
+}
+
+#textarea{
+    background-color: #F8FFFE;
 }
