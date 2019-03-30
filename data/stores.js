@@ -57,30 +57,346 @@ const STORES = {
     "instagram": "https://www.instagram.com/jugueteriaalemana/",
     "maps": "https://goo.gl/maps/6g15X5ky5KU2",
     "description": "Empresa Familiar desde 1960, comerzializadora de juguetes de diferentes tipos como modelismo, juegos de salon y puzzles entre otros",
+  },
+  {
+    "id": 4,
+    "name": "Bison Jugueteria",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://bisonjugueteria.cl/wp-content/uploads/2019/01/logo_256x100_frase.png",
+    "web": "https://bisonjugueteria.cl/",
+    "direction": "Patronato 207",
+    "comuna": "Recoleta,Santiago",
+    "fono": 227378937,
+    "email": "hola@bisonjugueteria.cl",
+    "facebook": "https://www.facebook.com/bisonjugueteria/",
+    "instagram": "https://www.instagram.com/bison.cl/",
+    "maps": "https://goo.gl/maps/7B5QsqSjyb72",
+    "description": "Juguetería con casi 20 años de dedicación y experiencia en el rubro, podrás encontrar cientos de juguetes, figuras de hobbies, artículos de bebés y regalos en general.",
+  },
+  {
+    "id": 5,
+    "name": "Rincon Infantil",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://dojiw2m9tvv09.cloudfront.net/17766/1/T_logo_tienda0885.png",
+    "web": "https://www.rinconinfantil.cl/",
+    "direction": "Av. Providencia 2251, local 012, Galería Zona Franca",
+    "comuna": "Providencia,Santiago",
+    "fono": 229932911,
+    "email": "Info@Rinconinfantil.cl",
+    "facebook": "https://www.facebook.com/JugueteriaRinconInfantil/",
+    "instagram": "https://www.instagram.com/jugueteria_rincon_infantil/",
+    "maps": "https://goo.gl/maps/LMevnW4Yien",
+    "description": "Emprendimiento familiar, nuestros divertidos diseños están especialmente pensados para que los infantes transiten cada etapa vital con el máximo confort e integren nuevas habilidades y aprendizajes",
+  },
+  {
+    "id": 6,
+    "name": "La Carpinteria",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "https://www.lacarpinteria.cl/",
+    "direction": "Av. Vitacura 5480, local 97,Centro Comercial Eve",
+    "comuna": "Vitacura,Santiago",
+    "fono": 987767856,
+    "email": "contacto@lacarpinteria.cl",
+    "facebook": "https://www.facebook.com/lacarpinteria.cl",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "La Carpintería es una tienda de juguetes de madera. Somos promotores del juego y el aprendizaje natural, simple y creativo, invitando a la estimulación y a la diversión.",
+  },
+  {
+    "id": 7,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
+  },
+  {
+    "id": 8,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
+  },
+  {
+    "id": 9,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
+  },
+  {
+    "id": 10,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
+  },
+  {
+    "id": 11,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
+  },
+  {
+    "id": 12,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
+  },
+  {
+    "id": 13,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
+  },
+  {
+    "id": 14,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
+  },
+  {
+    "id": 15,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
+  },
+  {
+    "id": 16,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
+  },
+  {
+    "id": 17,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
+  },
+  {
+    "id": 18,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
+  },
+  {
+    "id": 19,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
+  },
+  {
+    "id": 20,
+    "name": "Jugueteria Cuncuna",
+    "type": [
+      "Destreza",
+      "Curiosidad",
+      "Aprendizaje",
+      "Retención de Informacion"
+    ],
+    "img": "https://images.jumpseller.com/store/lacarpintera/logo/logo.png",
+    "web": "http://aukinkochile.com/sitio/",
+    "direction": "Luis Carrera 1846 esquina Luis Pasteur",
+    "comuna": "Vitacura,Santiago",
+    "fono": 222191139,
+    "email": "aukinko.web@gmail.com",
+    "facebook": "https://www.facebook.com/AukinkoLtda/",
+    "instagram": "https://www.instagram.com/lacarpinteria.cl/",
+    "maps": "https://goo.gl/maps/MmAk4xmnC872",
+    "description": "Material Didáctico, Juegos y Juguetes importados de las mejores marcas del mundo.Primeros Años  - Motricidad  - Arte y Manipulación  - Rincón Hogar - Juegos de Rol - Juegos de Playa y Jardín,Instrumentos Musicales - Lenguaje - Matemáticas - Ciencias - Deportes - Accesorios de Sala y Patio.",
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
-
-
-
-
-
-
-
-
-
-
-
 };;
