@@ -29,18 +29,18 @@ let firstScreen = '\
 
 
     window.onload = document.getElementById('area').innerHTML = firstScreen;   
-    const storesData = window.STORES.stores;
+    //const storesData = window.STORES.stores;
 
     //console.log(storesData[0].id);
     
-    let searchStore = document.getElementById('search');
+   
     let logoInit = document.getElementById('logoindex');
 
     logoInit.addEventListener('click', () => {
     document.getElementById('area').innerHTML = '';
     document.getElementById('area').innerHTML = firstScreen;
   });
-
+  let searchStore = document.getElementById('search');
     searchStore.addEventListener('click',() =>{
       document.getElementById('area').innerHTML = '';
     showData();
