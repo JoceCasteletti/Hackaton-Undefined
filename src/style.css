@@ -1,7 +1,7 @@
-body{
-background-image: url("../img/logo.png");
-background-size: 20em;
-}
+.card-group{
+    margin-left: 30px;
+    margin-right: 40px;
+  }
 
 body.img{
     opacity: 1.0;;
