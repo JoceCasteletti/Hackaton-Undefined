@@ -3,6 +3,24 @@
     margin-right: 40px;
   }
 
+  .card{
+    margin-bottom: 15px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .card:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+  }
+  .card-image{
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: 30px !important;
+    margin-bottom: 50px;
+  }
+img card-image{
+    width: 100px;
+}
 
 .nav{
     background-color: #D4F1EF;
@@ -18,10 +36,6 @@
 .differences{
     margin: 70px;
     text-align: center
-}
-
-img{
-width: 500px;
 }
 
 #logoindex{
@@ -40,4 +54,10 @@ button{
 
 button:hover{
     background-color: #00C0AF;
+}
+#icon {
+    width: 50px;
+}
+.container{
+    margin-top: 2%;
 }
