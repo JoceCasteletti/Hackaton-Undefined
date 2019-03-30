@@ -17,8 +17,6 @@ Juega libre es la mejor página para encontrar toda la información de las tiend
 ### Sabes que son los esterotipos de género?
 Los estereotipos de género hacen referencia a aquellas creencias arraigadas fuertemente en la sociedad acerca de cómo son, o como deben ser, las mujeres y los hombres. Son creencias que dictan los roles que los hombres y mujeres han de desempeñar en la sociedad a la que pertenecen.
 
-![JuegaLibre]()
-
 
 ## Proceso del Diseño 🎨
 En el desarrollo fuimos evaluando y considerando cada uno de los criterios referidos por los usuarios para un mejor desarrollo de esta aplicación.
