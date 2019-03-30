@@ -20,6 +20,8 @@ document.getElementById('area').innerHTML += `
 };
 
 
+window.onload=showData();
+
 let firstScreen = '\
     <div class="differences">\
     <h3>Rompe los roles, destuye los estereotipos, estimula su creatividad y que tus niñ@s crezcan sin limites</h3>\
@@ -33,15 +35,12 @@ let firstScreen = '\
 
     //console.log(storesData[0].id);
     
-    let searchStore = document.getElementById('search');
+    let searchli = document.getElementById('search');
     let logoInit = document.getElementById('logoindex');
 
     logoInit.addEventListener('click', () => {
     document.getElementById('area').innerHTML = '';
-    document.getElementById('area').innerHTML = firstScreen;
+    document.getElementById('textarareaea').innerHTML = firstScreen;
   });
 
-    searchStore.addEventListener('click',() =>{
-      document.getElementById('area').innerHTML = '';
-    showData();
-    });
+    searchli.addEventListener('click')
