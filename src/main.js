@@ -1,11 +1,12 @@
 const storesData = window.STORES.stores;
 let result = storesData;
+
 function showData(){  
-    
+
 for (let i=0; i<storesData.length; i++){
-       //console.log(storesData[i].name);
+       
 document.getElementById('area').innerHTML += ` 
-<div class="col-md-4">
+<div class="col-md-4">  
 <div class="card" style="width: 18rem; height: 20em">
   <img src="${storesData[i].img}" class="card-img-top" alt="...">
   <div class="card-body">
@@ -45,4 +46,11 @@ let firstScreen = '\
     searchStore.addEventListener('click',() =>{
       document.getElementById('area').innerHTML = '';
     showData();
+    });
+
+    let somos = document.getElementById('somos');
+    somos.addEventListener('click',() =>{
+      document.getElementById('area').innerHTML = '';
+      document.getElementById('area').innerHTML =`<p>hoajahakjsakjsakhSKAHDKA</p>`
+
     });
