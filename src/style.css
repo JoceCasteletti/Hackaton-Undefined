@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+	padding: 0;
+}
+
 .card-group{
     margin-left: 30px;
     margin-right: 40px;
@@ -42,4 +47,4 @@ button:hover{
 }
 .container{
     margin-top: 2%;
-}
+} 
